@@ -13,12 +13,10 @@ init () {
   echo -e "\nGenbu's dotfiles ver 1.0 (Karasuma)"
   echo -e "\nReady? [Y/n] > "
   read ready
-  if [ "$ready" = "y" ] || [ "$ready" = "Y" ]; then
+  if [ "$ready" = "y" ] || [ "$ready" = "Y" ] || [ "$ready" = "" ]; then
     main
   elif [ "$ready" = "n" ] || [ "$ready" = "N" ]; then
     exit
-  elif [ "$ready" = "" ]; then
-    main
   else
     exit
   fi
