@@ -4,6 +4,8 @@
 
 macOS Catalina がやってくるので、それに備えて作った dotfiles。
 
+Ver 1.0 (烏丸 Karasuma)
+
 ## つかいかた
 
 ```sh
@@ -22,3 +24,11 @@ macOS Catalina がやってくるので、それに備えて作った dotfiles�
 8. Node.js, Vagrant, そして Docker をインストール
 9. VSCode に、Beautify系, カラーピッカー, Chrome用デバッガー, ESLint, インデントに色を付ける拡張, 日本語パック, Live Server, Python拡張, Vetur, そして Vue-Beautify をインストール
 10. VSCode の設定ファイルを展開
+
+## 開発環境
+
+- MacBook Air 2018 (256GB JIS) 
+- macOS Mojave 10.14.6
+- Visual Studio Code 1.39.0
+- bash 3.2
+- Python 3.7.1
