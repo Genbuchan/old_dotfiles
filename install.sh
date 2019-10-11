@@ -35,7 +35,7 @@ main () {
   python3 install_apps.py
   
   # VSCodeのdotfilesを展開
-  cp "./Code/" "/Users/$USER/Application Support/"
+  cp "./Code/" "/Users/$USER/Library/Application Support/"
   exit
 }
 
