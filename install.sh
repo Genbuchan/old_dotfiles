@@ -25,9 +25,17 @@ init () {
 
 # Main
 main () {
+  # Homebrew をインストール
   homebrew
+
+  # Python 3 をインストール
   installPython
-  python3 install_phase2.py
+
+  # 各種アプリケーションをインストール
+  python3 install_apps.py
+  
+  # VSCodeのdotfilesを展開
+  cp "./Code/" "/Users/$USER/Application Support/"
   exit
 }
 

@@ -1,0 +1,17 @@
+{
+    // スペースを表示
+    "editor.renderWhitespace": "all",
+    // emmetの言語設定を日本語に
+    "emmet.variables": {"lang" : "ja"},
+    // emmetをタブキーで実行
+    "emmet.triggerExpansionOnTab": true,
+    // 折り返し
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "html.format.indentInnerHtml": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false
+}
