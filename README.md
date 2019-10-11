@@ -27,8 +27,15 @@ Ver 1.0 (烏丸 Karasuma)
 
 ## 開発環境
 
-- MacBook Air 2018 (256GB JIS) 
+- MacBook Air 2018 (256GB JIS)
 - macOS Mojave 10.14.6
 - Visual Studio Code 1.39.0
 - bash 3.2
 - Python 3.7.1
+
+## Special Thanks
+
+- aoharu514 (<https://aoharu514.github.io/)> 様 : VSCodeのプラグイン導入の際に参考にさせていただきました。
+- sifue (<https://www.soichiro.org/>) 様: dotfiles を参考にさせていただきました。
+- Kakudo (<https://kakudo415.com/>) 様 : dotfiles を参考にさせていただきました。
+- OJI (<https://oldbigbuddha.dev/>) 様 : dotfiles の開発に関するアイデアをいただきました。
