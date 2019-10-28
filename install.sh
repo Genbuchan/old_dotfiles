@@ -34,6 +34,13 @@ main () {
   # 各種アプリケーションをインストール
   python3 install_apps.py
   
+  # りこたんのおすすめ
+  Go lang
+  
+  # りこたんのおすすめ
+  ojichat
+  
+  
   # VSCodeの設定ファイルを展開
   cp -r "./Code/" "/Users/$USER/Library/Application Support/"
   exit
@@ -46,12 +53,32 @@ homebrew () {
   return 0
 }
 
+# Go lang
+Go lang () {
+  echo -e "\nInstalling Go lang..."
+  #brew install go
+  #touch .bash_profile
+  #export GOPATH=$HOME/go
+  #export PATH=$PATH:$GOPATH/bin
+  #source ~/.bash_profile
+  return 0
+}
+
+# ojichat
+ojichat () {
+  echo -e "\nInstalling ojichat..."
+  #go get -u github.com/greymd/ojichat
+  #ojichat
+  return 0
+}  
+
 # Development
 installPython () {
   echo -e "\nInstalling Python 3..."
   #brew install pyenv
   #pyenv install 3.7.1
   #pyenv global 3.7.1
+  #brew install pip3
   return 0
 }
 
