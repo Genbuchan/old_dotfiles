@@ -14,8 +14,8 @@ def main() :
 
 def development() :
   print("\nPhase 5. Install development environment")
-  installApps(["visual-studio-code", "virtualbox", "local-by-flywheel",])
-  installCaskApps(["node", "vagrant", "docker"])
+  installCaskApps(["visual-studio-code", "virtualbox", "vagrant", "docker"])
+  installApps(["node"])
   installVSCodeExtension(["hookyqr.beautify", "michelemelluso.code-beautifier", "anseki.vscode-color", "msjsdiag.debugger-for-chrome", "dbaeumer.vscode-eslint", "oderwat.indent-rainbow", "MS-CEINTL.vscode-language-pack-ja", "ritwickdey.liveserver", "ms-python.python", "octref.vetur", "peakchen90.vue-beautify"])
   return 0
 
