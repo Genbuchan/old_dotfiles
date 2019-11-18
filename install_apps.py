@@ -41,22 +41,22 @@ def games() :
 
 # apps引数に、Appの名前を配列で格納して代入
 def installApps(apps) :
-  for appName in apps :
-    print("Installing", appName)
-    #subprocess.run("brew install " + appName, shell=True)
+  for app in apps :
+    print("Installing", app)
+    subprocess.run("brew install " + app, shell=True)
   return 0
 
 # apps引数に配列にCask Appの名前を配列で格納して代入
 def installCaskApps(apps) :
-  for appName in apps :
-    print("Installing", appName)
-    #subprocess.run("brew cask install " + appName, shell=True)
+  for app in apps :
+    print("Installing", app)
+    subprocess.run("brew cask install " + app, shell=True)
   return 0
 
 # exts引数にExtensionの名前を配列で格納して代入
 def installVSCodeExtension(exts) :
-  for extName in exts :
-    print("Installing", extName)
-    #subprocess.run("/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code --install-extension " + extName, shell=True)
+  for ext in exts :
+    print("Installing", ext)
+    subprocess.run("/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code --install-extension " + ext, shell=True)
 
 main()

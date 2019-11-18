@@ -5,12 +5,12 @@
 #
 # Genbu's dotfiles
 #
-# ver 1.0 (Karasuma)
+# ver 1.01 (Karasuma)
 #
 
 # Initialize
 init () {
-  echo -e "\nGenbu's dotfiles ver 1.0 (Karasuma)"
+  echo -e "\nGenbu's dotfiles ver 1.01 (Karasuma)"
   echo -e "\nReady? [Y/n] > "
   read ready
   if [ "$ready" = "y" ] || [ "$ready" = "Y" ] || [ "$ready" = "" ]; then
